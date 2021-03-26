@@ -11,7 +11,7 @@ $mail->setLanguage('php','phpmailer/language/');
 $mail->IsHTML(true);
 
 // ОТ кого
-$mail->setForm('natalie.aa@yandex.ru','name');
+$mail->setForm('email','name');
 //Кому
 $mail->addAddress('ani.netali00101@gmail.com');
 //Тема письма
