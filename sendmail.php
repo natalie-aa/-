@@ -13,7 +13,7 @@ $mail->IsHTML(true);
 // ОТ кого
 $mail->setForm('email','name');
 //Кому
-$mail->addAddress('');
+$mail->addAddress('ani.netali00101@gmail.com');
 //Тема письма
 $mail->Subject = 'Свободная';
 
